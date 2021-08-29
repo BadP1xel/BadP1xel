@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" "ru">
+<head>
+      <meta charset="UTF-8">
+      <title>сайт</title>
+</head>
+    <body>
+     <heder>
+         <nav>
+           <div class="logo"> Андрей Б.</div>
+             <div class="menu"><ul>
+                <li> Обо мне </li>
+                <li> Услуги </li>  
+                <li> Кейсы </li> 
+                <li> Прайс </li> 
+                <li> Отзывы </li> 
+                <li> Контакты </li>        
+                            
+             </ul></div>
+         </nav>
+     </heder>
+        <div class="main">
+          <div class="title_conteiner"> <!-- не понятно зачем тут два блока? понятно что бы офрмление привязать, но все привяжется к классу title_conteiner. Зачем тогда main?  -->
+           <h1> Привет!!! <br> Я Андрей Браун</h1>
+           <h4> WEB разработки</h4>
+           <form action="#">
+           <input type="submit" value="Обомне">
+           <input type="submit" value="Мои работы">
+            </form>
+        </div>
+        </div>
+        
+        <div class="title1" id="1">
+        <h3><b> Обо мне </b></h3> <!-- тэг <b> использовал для теста, помню что CSS делаем тощену текста -->
+        </div>
+           
+           <div class="title1" id="2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam distinctio, at nisi est ex placeat, harum alias quo officiis aut!</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam distinctio, at nisi est ex placeat, harum alias quo officiis aut!</p>
+             <form action="#">
+             <input type="submit" value="Скачать">
+               </form>
+             </div> 
+        
+        <div class="title2"> 
+        <h3><b> Что я умею! </b></h3>
+        <div class="list">
+                <table width="100%">
+            <tr>
+                <th><h2><b>Веб дизайн</b></h2></th>
+                <th><h2><b>Разработка </b></h2></th>
+                <th><h2><b>CEO оптимизация</b></h2></th>
+                <th><h2><b>Маркетинг</b></h2></th>
+            </tr>
+            <tr>
+                <td><h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam velit sint facilis dolores. Tenetur, in pariatur accusantium deserunt molestiae.</h5></td>
+                <td><h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam velit sint facilis dolores. Tenetur, in pariatur accusantium deserunt molestiae.</h5></td>
+                <td><h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam velit sint facilis dolores. Tenetur, in pariatur accusantium deserunt molestiae.</h5></td>
+                <td><h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam velit sint facilis dolores. Tenetur, in pariatur accusantium deserunt molestiae.</h5></td>
+                
+            </tr>
+        </table>
+        </div>
+        </div>
+        
+        <div class="title3" id="1">
+            <h3><b> Кейсы </b></h3>
+           <div class="title3" id="2">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestiae. Neque consequatur, dolores dicta perspiciatis illo commodi possimus! Vero, vel.</p>
+           <div class="title3" id="3"> 
+           <h4><b> Лучший проект в Мире </b></h4>
+           <div class="title3" id="4">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat laborum iste eum incidunt atque, corporis sint facilis dolore, recusandae adipisci similique voluptates sapiente tempora voluptatum aspernatur error debitis voluptate reiciendis, nemo labore ducimus magnam nihil tenetur et? Ut perferendis assumenda aperiam voluptatum consequuntur ipsam, quo eveniet excepturi nulla vel officia. Ad, facilis deleniti vitae reiciendis error? Repellat omnis voluptatem consectetur.</p>
+           <div class="title3" id="5">
+            <h5><b> CLIENT: </b></h5>
+              <div class="title3" id="6">
+              <h6> PEAR </h6> 
+              <div class="title3" id="7">
+            <h5><b> WEBSITE: </b></h5>
+              <div class="title3" id="8">
+              <h6> www.pear.com </h6>
+                    </div>
+                  </div>
+               </div>
+              </div>
+               </div>
+               </div>
+            </div>
+            <form action="#">
+            <input type="submit" value="VISIT LIVE SITE">
+            </form>
+           </div>   <!-- как лучше вкладывать юлоки, друг в друга или по очереди положенные в один общий логический блок ?? -->
+           
+         <div class="title4" id="1">
+             <h3><b>Расчет стоймости</b></h3>
+             <div class="title4" id="2">
+             <h4><b>Тип сайта</b></h4>
+             <form action="#">   <!-- скрипт пишиться на каждую кнопуку или можно на блок кнопок сразу написать ?? 
+             я в начале написал на весь блок выпадающих списков, потом зашел в код страницы через браузер и он тэг from привизал только к первому списку. Потом переделал под каждый выпадающий список. 
+             Но как я понимаю, на эти маленькие скрипты должен быть общий скрипт, который потом выдает стоимость?? -->
+            <select  name="site type" id="1"> <!-- как сделать надписи "Выберите пункт...?" -->
+               <option>landing</option>
+               <option>сайт визитка</option>
+               <option>кино сайт</option>
+               <option>портал</option>
+               <option>ERP система</option>
+               <option>CRM система</option>
+            </select>
+            </form>
+             </div>
+             <div class="title4" id="3">
+                 <h4><b>Дизайн</b></h4> 
+            <form action="#">   
+             <select  name="design" id="2">
+               <option>Hand Draw</option>
+               <option>Flat Design</option>
+               <option>Material Design</option>
+               <option>Ретро-стиль</option>
+               <option>Корпоративный стиль</option>
+               <option>Полигональный стиль</option>
+               <option>Арт Деко</option>
+            </select>    
+            </form> 
+             </div>
+             <div class="title4" id="4">
+             <h4><b>Адаптивность</b></h4>
+             <form action="#">
+              <select  name="adaptability" id="3">
+               <option>Адаптивный макет</option>
+               <option>Отзывчивый макет</option>
+               <option>Смешанный макет</option>
+            </select>   
+            </form>  
+            <div class="title4" id="4">
+            <form action="#">
+            <h4> Сроки </h4>     <!-- правильно я понял, что стоймость будет считать скрипт и собствено выводить цену и сроки?-->
+            <h4> Стоимость </h4> 
+                </form>
+            </div> 
+             </div>   
+         </div>   
+        <div class="title5" id="1">
+            <h3>Немного статистики</h3>
+        <table width="100%">
+            <tr>
+                <th><h2><b>120</b></h2></th>
+                <th><h2><b>4600 </b></h2></th>
+                <th><h2><b>340</b></h2></th>
+                <th><h2><b>23</b></h2></th>
+            </tr>
+            <tr>
+                <td><h5>Cчастливых клиентов</h5></td>
+                <td><h5>часов работы</h5></td>
+                <td><h5>Проектов завершено</h5></td>
+                <td><h5>Наград получено</h5></td>
+            </tr>
+        </table>
+        </div>
+        
+        <div class="title6" id="1">
+            <h1><b>Отзывы</b></h1>
+            <div class="title6" id="2">
+                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aut. Voluptatem dolorum, eos ratione consequuntur iste nesciunt dignissimos inventore error.</h5> <!-- каскад на JS делаем??-->
+                <h5> Мишаня , ген.дир ПАО "ГазПром"</h5>
+            </div>
+        </div>
+        
+        <div class="title6" id="1">
+            <h1>контакты</h1>
+            <div class="title6" id="2">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem, dolores blanditiis, id iusto sit.</h4>
+                <table  width="100%">
+                    <tr>
+                        <ht> Санкт-Петергбург, Невский проспект 11</ht>
+                        <ht> mail@mail.com</ht>
+                        <ht> 8-812-1234567</ht>
+                    </tr>
+                </table>
+                <div class="title6" id="3">
+                    <h2> Оставьте мне сообщение</h2>
+                    <form action="#">
+                    <div class="title6" id="4">
+                        <input type="name" placeholder="Имя">
+                        <input type="mail" placeholder="Email"><br><br>     
+                        <textarea name="title6_message" cols="60" rows="20" placeholder="Напишите сообщение"></textarea>
+                        <div class="title6">
+                            <input type="submit" value="отправить">
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </body> 
+</html>
